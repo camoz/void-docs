@@ -38,8 +38,7 @@ If you're having any issues with elogind, [enable](./services/index.md) its
 service, as waiting for a D-Bus activation can lead to issues.
 
 There is an alternative D-Bus configuration which takes advantage of elogind for
-features such as seat detection. It requires installing the `dbus-elogind`,
-`dbus-elogind-libs` and `dbus-elogind-x11` packages.
+features such as seat detection. To use it, install the `dbus-elogind` package.
 
 ## seatd
 
